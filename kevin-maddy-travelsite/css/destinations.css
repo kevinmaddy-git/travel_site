@@ -1,0 +1,70 @@
+main {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1280px;
+    height: 100%;
+}
+#hawaii {
+    background-image: url(/assets/Images/hawaii.jpg);
+}
+#iceland {
+    background-image: url(/assets/Images/iceland.jpg);
+}
+#greece {
+    background-image: url(/assets/Images/greece.jpg);
+}
+.location {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 255px;
+    width: 1150px;
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 40px;
+    margin-bottom: 100px;
+    margin-left: -10px;
+}
+.row {
+    display: inline-block;
+    background-color: white;
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: -70px;
+    margin-block-start: -70px;
+    margin-inline-start: 100px
+}
+.day {
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+}
+.card {
+    width: 90%;
+    margin: 20px auto;
+}
+.daily_schedule {
+    display: block;
+    text-align: center;
+    height: 30px;
+    background-color: #fefaf5;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-right: 35px;
+}
