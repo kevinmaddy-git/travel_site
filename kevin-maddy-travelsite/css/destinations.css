@@ -1,3 +1,4 @@
+    /*Itinerary Section*/
 main {
     display: inline-block;
     background-repeat: no-repeat;
@@ -6,6 +7,7 @@ main {
     width: 1280px;
     height: 100%;
 }
+    /*Background Image for Destination Pages */
 #hawaii {
     background-image: url(/assets/Images/hawaii.jpg);
 }
@@ -15,6 +17,7 @@ main {
 #greece {
     background-image: url(/assets/Images/greece.jpg);
 }
+    /*Itinerary Cards Section*/
 .location {
     display: flex;
     flex-wrap: wrap;
@@ -56,8 +59,9 @@ main {
     margin-bottom: 30px;
 }
 .card {
-    width: 90%;
-    margin: 20px auto;
+    margin-right: 50px;
+    margin-left: -20px;
+    width: 100%;
 }
 .daily_schedule {
     display: block;
@@ -66,5 +70,4 @@ main {
     background-color: #fefaf5;
     margin-bottom: 20px;
     padding-top: 10px;
-    padding-right: 35px;
 }
