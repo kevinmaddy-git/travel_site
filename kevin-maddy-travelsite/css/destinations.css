@@ -11,12 +11,15 @@ main {
 #hawaii {
     background-image: url(/assets/Images/hawaii.jpg);
 }
+
 #iceland {
     background-image: url(/assets/Images/iceland.jpg);
 }
+
 #greece {
     background-image: url(/assets/Images/greece.jpg);
 }
+
     /*Itinerary Cards Section*/
 .location {
     display: flex;
@@ -27,6 +30,7 @@ main {
     padding-top: 100px;
     padding-left: 100px;
 }
+
 .container {
     display: inline-flex;
     flex-wrap: wrap;
@@ -39,6 +43,7 @@ main {
     margin-bottom: 100px;
     margin-left: -10px;
 }
+
 .row {
     display: inline-block;
     background-color: white;
@@ -50,6 +55,7 @@ main {
     margin-block-start: -70px;
     margin-inline-start: 100px
 }
+
 .day {
     font-weight: bolder;
     border-bottom: 2px solid black;
@@ -58,11 +64,13 @@ main {
     padding-top: 5px;
     margin-bottom: 30px;
 }
+
 .card {
     margin-right: 50px;
     margin-left: -20px;
     width: 100%;
 }
+
 .daily_schedule {
     display: block;
     text-align: center;
